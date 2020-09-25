@@ -16,6 +16,7 @@ const PokemonLoader = () => {
 
   return (
     <div>
+      <h1>{status}</h1>
       {pokemon.map(p => <h3 key={p.name}>{p.name}</h3>)}
     </div>
   );

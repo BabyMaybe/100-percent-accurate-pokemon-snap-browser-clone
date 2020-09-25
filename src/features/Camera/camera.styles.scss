@@ -1,0 +1,30 @@
+$corner-size: 50px;
+$border-color: rgba(220, 220, 220, 1);
+$border-size: 3px;
+$border-style: solid;
+
+.camera-overlay {
+  .corner {
+    background-color: red;
+    height: $corner-size;
+    width: $corner-size;
+    // border: solid black 3px;
+    border-radius: 3px;
+  }
+
+  .top {
+    border-top: $border-style $border-color $border-size;
+  }
+
+  .bottom {
+    border-bottom: $border-style $border-color $border-size;
+  }
+
+  .left {
+    border-left: $border-style $border-color $border-size;
+  }
+
+  .right {
+    border-right: $border-style $border-color $border-size;
+  }
+}
